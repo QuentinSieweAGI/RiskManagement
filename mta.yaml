@@ -72,7 +72,6 @@ resources:
         oauth2-configuration:
           # <-- add this
           redirect-uris:
-            # example: - https://risk-management-approuter.cfapps.eu10-004.hana.ondemand.com/login/callback
             - https://36d73754trial-dev-risk-management.cfapps.us10-001.hana.ondemand.com/login/callback
   - name: risk-management-db
     type: com.sap.xs.hdi-container
